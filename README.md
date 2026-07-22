@@ -1,4 +1,4 @@
-# 📊 IntelliBank — AI-Powered Transaction Analysis Dashboard
+# 📊 IntelliBank - AI-Powered Transaction Analysis Dashboard
 
 ## 📌 Overview
 IntelliBank is a data analytics project that leverages AI-generated datasets to analyze banking transactions, customer behavior, and account performance using Power BI.
@@ -36,6 +36,16 @@ IntelliBank is a data analytics project that leverages AI-generated datasets to 
 - Data stored and managed using SQL Server  
 - Data cleaning and transformation using Power Query  
 - Dashboard creation and visualization in Power BI  
+
+---
+
+## 📸 Dashboard Preview
+
+### 📊 Dashboard 1
+![Dashboard 1](Dashboard-images/dashboard1.png)
+
+### 📊 Dashboard 2
+![Dashboard 2](Dashboard-images/dashboard2.png)
 
 ---
 
