@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["CombinedBankingDataset","Measure Table 1"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table CombinedBankingDataset
+ref table DateTableTemplate_b458b496-55aa-4e87-af5d-6e322d78031c
+ref table LocalDateTable_00ca2b2b-4c14-4486-b69a-e91a02ae2c9c
+ref table LocalDateTable_64962009-2ccb-4d9e-809c-827ca7b60e12
+ref table 'Measure Table 1'
+
+ref cultureInfo en-US
+

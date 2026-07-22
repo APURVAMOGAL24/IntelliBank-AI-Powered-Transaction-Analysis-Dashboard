@@ -1,0 +1,10 @@
+relationship e8e66750-16fa-495a-ac54-f84f677ffb2f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CombinedBankingDataset.TransactionDate
+	toColumn: LocalDateTable_00ca2b2b-4c14-4486-b69a-e91a02ae2c9c.Date
+
+relationship 517ab0e4-2f50-4012-9a60-9d147af09af9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CombinedBankingDataset.OpenDate
+	toColumn: LocalDateTable_64962009-2ccb-4d9e-809c-827ca7b60e12.Date
+
